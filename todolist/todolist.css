@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d-flex{
+    display: flex;
+}
+.d-col{
+    flex-direction: column;
+}
+.d-none{
+    display: none;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+text-align: center;
+height: 100vh;
+background-image:url('images/todolist\ background3.avif') ;
+background-size: cover;
+object-fit: cover;
+background-repeat: no-repeat;
+/* background-color: white; */
+/* align-items: center; */
+}
+.todolist{
+    width: 40%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 0;
+    background-color: white;
+    border-radius: 9px;
+    padding: 42px;
+}
+
+.todolist>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.todolist1{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+    /* align-items: center; */
+}
+#ip{
+    width: 100%;
+    padding: 12px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid gray
+    /* border-radius: 2px; */
+
+}
+.todolist1>button{
+    width: 136px;
+    height: 38px;
+    background-color:black;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+}
+#work{
+    align-self: start;
+}
+#work>form>input{
+    margin-right: 8px;
+}
+#tasklist li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskWrapper>input{
+    margin-right: 6px;
+    font-size: 19px;
+}
+
+.checkbox{
+    font-size: 19px;
+}
+
+.taskWrapper{
+    display: flex;
+    flex: 1;
+}
+
+.taskLabel{
+    margin-right: 461px;
+    font-size: 18px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.close{
+    font-size: 19px;
+}
