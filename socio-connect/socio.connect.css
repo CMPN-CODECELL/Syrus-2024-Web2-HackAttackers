@@ -1,0 +1,41 @@
+.d-flex{
+    display: flex;
+}
+
+.d-col{
+    flex-direction: column;
+}
+
+.memoryVoices{
+    flex-direction: column;
+}
+
+.card-body>a{
+    text-decoration: none;
+}
+
+.card{
+    margin: 10px;
+}
+
+.cards{
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-success{
+    background-color: #28a745;
+    color: #fff;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
