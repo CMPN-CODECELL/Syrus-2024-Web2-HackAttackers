@@ -1,101 +1,163 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.d-flex{
-    display: flex;
+.d-flex {
+  display: flex;
 }
-.d-col{
-    flex-direction: column;
+.d-col {
+  flex-direction: column;
 }
-.d-none{
-    display: none;
+.d-none {
+  display: none;
 }
-.container{
-    width: 100%;
-    justify-content: center;
-text-align: center;
-height: 100vh;
-background-image:url('images/todolist\ background3.avif') ;
-background-size: cover;
-object-fit: cover;
-background-repeat: no-repeat;
-/* background-color: white; */
-/* align-items: center; */
+.container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url("images/todolist\ background3.avif");
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  /* background-color: white; */
+  /* align-items: center; */
 }
-.todolist{
-    width: 50%;
+.todolist {
+  /* width: 50%;
     height: 20%;
     max-height: 60%;
     align-items: center;
     margin: 150px 0 0 0;
     background-color: white;
     border-radius: 9px;
-    padding: 42px;
+    padding: 42px; */
+  width: 50%;
+  min-height: 20%;
+  max-height: 80vh; /* Maximum height before scrolling */
+  align-items: center;
+  margin: 150px auto;
+  background-color: white;
+  border-radius: 9px;
+  padding: 42px;
+  overflow-y: auto; /* Enables scrolling within the container */
 }
 
-.todolist>h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
+.todolist > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
 }
 
-.todolist1{
-    width: 70%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6vh;
+.todolist1 {
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6vh;
 }
-#ip{
-    width: 100%;
-    padding: 12px;
-    height: 10px;
-    margin-right: 10px;
-    border-radius: 4px;
-    border: 1px solid gray
+#ip {
+  width: 100%;
+  padding: 12px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid gray;
 }
-.todolist1>button{
-    width: 136px;
-    height: 38px;
-    background-color:black;
-    border-radius: 4px;
-    border: 0;
-    color: white;
+.todolist1 > button {
+  width: 136px;
+  height: 38px;
+  background-color: black;
+  border-radius: 4px;
+  border: 0;
+  color: white;
 }
-#work{
-    align-self: center;
-    /* overflow-y: auto; Add a vertical scrollbar when content overflows */
-    max-height: 80%; 
+#work {
+  align-self: center;
+  /* overflow-y: auto; Add a vertical scrollbar when content overflows */
+  max-height: 80%;
 }
-#tasklist li{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-}
-
-.taskWrapper>input{
-    margin-right: 6px;
-    font-size: 25px;
+#tasklist li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-.checkbox{
-    font-size: 30px;
+.taskWrapper > input {
+  margin-right: 6px;
+  font-size: 25px;
 }
 
-.taskWrapper{
-    display: flex;
-    flex: 1;
+.checkbox {
+  font-size: 30px;
 }
 
-.taskLabel{
-    margin-right: 461px;
-    font-size: 28px;
-    display: flex;
-    flex-shrink: 0;
+.taskWrapper {
+  display: flex;
+  flex: 1;
 }
 
-.close{
-    font-size: 19px;
+.taskLabel {
+  margin-right: 461px;
+  font-size: 18px;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.close {
+  font-size: 19px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 12vh;
+  font-size: 26px;
+}
+
+/* The Close Button */
+.close-button {
+  background-color: black;
+  color: white;
+  float: right;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.close-button:hover,
+.close-button:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#cancelComplete,
+#confirmComplete {
+  margin-top: 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  width: 10%;
 }
