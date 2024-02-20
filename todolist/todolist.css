@@ -24,9 +24,9 @@ background-repeat: no-repeat;
 /* align-items: center; */
 }
 .todolist{
-    width: 40%;
-    height: 150px;
-    justify-content: center;
+    width: 50%;
+    height: 20%;
+    max-height: 60%;
     align-items: center;
     margin: 150px 0 0 0;
     background-color: white;
@@ -39,15 +39,14 @@ background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 16px;
 }
 
 .todolist1{
     width: 70%;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    margin-bottom: 20px;
-    /* align-items: center; */
+    margin-bottom: 6vh;
 }
 #ip{
     width: 100%;
@@ -56,8 +55,6 @@ background-repeat: no-repeat;
     margin-right: 10px;
     border-radius: 4px;
     border: 1px solid gray
-    /* border-radius: 2px; */
-
 }
 .todolist1>button{
     width: 136px;
@@ -68,10 +65,9 @@ background-repeat: no-repeat;
     color: white;
 }
 #work{
-    align-self: start;
-}
-#work>form>input{
-    margin-right: 8px;
+    align-self: center;
+    /* overflow-y: auto; Add a vertical scrollbar when content overflows */
+    max-height: 80%; 
 }
 #tasklist li{
     list-style-type: none;
@@ -81,11 +77,11 @@ background-repeat: no-repeat;
 
 .taskWrapper>input{
     margin-right: 6px;
-    font-size: 19px;
+    font-size: 25px;
 }
 
 .checkbox{
-    font-size: 19px;
+    font-size: 30px;
 }
 
 .taskWrapper{
@@ -95,7 +91,7 @@ background-repeat: no-repeat;
 
 .taskLabel{
     margin-right: 461px;
-    font-size: 18px;
+    font-size: 28px;
     display: flex;
     flex-shrink: 0;
 }

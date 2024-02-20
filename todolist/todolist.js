@@ -1,22 +1,3 @@
-// const ip = document.querySelector('#ip')
-// const add = document.querySelector('#add')
-// const tasklist = document.querySelector('#tasklist')
-// const work = document.querySelector('#work')
-// add.addEventListener('click',()=>{
-//     console.log(ip.value)
-//     work.classList.remove('d-none')
-//    const listItem= document.createElement('li')
-
-//    const checkbox = document.createElement('input');
-//    checkbox.type = 'checkbox';
-//    listItem.appendChild(checkbox);
-
-//    listItem.textContent +=ip.value
-//    tasklist.appendChild(listItem)
-
-    
-// })
-
 const ip = document.querySelector('#ip');
 const add = document.querySelector('#add');
 const taskList = document.querySelector('#tasklist');
@@ -45,7 +26,7 @@ add.addEventListener('click', () => {
         taskList.appendChild(listItem);
 
         const close = document.createElement('span');
-        close.innerHTML = '<i class="fa-solid fa-square-xmark"></i>';
+        close.innerHTML = '<i class="fa-solid fa-square-xmark 2x"></i>';
         listItem.appendChild(close);
         close.classList.add('close');
 
