@@ -157,7 +157,7 @@
       <div class="carousel-item active" data-bs-interval="10000">
         <div class="test-container" style="height: 80vh; width: 100%">
           <div class="d-flex justify-content-center">
-            <img src="/HOME/home/images/img1.jpg" alt="" />
+            <img src="/images/img1.jpg" alt="" style="width: 300px; height: auto;">
           </div>
           <div class="carousel-caption d-none d-md-block">
             <p class="testimonial-heading">Irene Miller</p>
@@ -170,7 +170,7 @@
       <div class="carousel-item" data-bs-interval="2000">
         <div class="test-container" style="height: 80vh; width: 100%">
           <div class="d-flex justify-content-center">
-            <img src="/HOME/home/images/img2.jpg" alt="" />
+            <img src="/images/img2.jpg" alt="" style="width: 300px; height: auto;">
           </div>
           <div class="carousel-caption d-none d-md-block">
             <p class="testimonial-heading">Ian Thompson</p>
@@ -183,7 +183,7 @@
        <div class="carousel-item">
             <div class="test-container" style="height: 80vh; width: 100%">
               <div class="d-flex justify-content-center">
-                <img src="/HOME/home/images/img3.jpg" alt="" />
+                <img src="/images/img3.jpg" alt="" style="width: 300px; height: auto;">
               </div>
               <div class="carousel-caption d-none d-md-block">
                 <p class="testimonial-heading">Lily Martin</p>
@@ -217,19 +217,61 @@
     <!-- Testimonial section ends here -->
 
 
+<!-- giggle sec starts -->
+      <div class="container d-flex">
+        <div class="left">
+          <img src="/images/giggle.png" alt="" >
 
-    <!-- <footer class="footer d-flex d-col">
-        <p>For questions or technical support related to ALZConnected, please contact  <a href="">ALZConnected@alz.org</a></p>
-        <a href=""></a>
-        &copy;2023 Alzheimer's Association®. All rights reserved. Alzheimer's Association is a not-for-profit 501(c)(3) organization.
-        <div class="links d-flex">
-            <a href="">Security & Privacy Policy | </a>
-            <a href="">alz.org |</a>
-            <a href="">Donate |</a>
-            <a href=""> 24/7 Helpline at 800.272.3900</a>
         </div>
-    </footer> -->
 
+        <div class="right giggle-color">
+          <h1>Ready to dive into a world of laughter and joy? </h1>
+          <p>Step right in and explore our Giggle Generator – your gateway to an endless supply of giggles,
+             chuckles, and belly laughs!</p>
+
+          <button class="btn" data-bs-toggle="modal" data-bs-target="#exploreGigglesModal">Explore Giggles</button>
+             
+        </div>
+      </div>
+
+      <!-- giggle modal -->
+<!-- Modal -->
+<div class="modal fade" id="exploreGigglesModal" tabindex="-1" aria-labelledby="exploreGigglesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exploreGigglesModalLabel">Explore Giggles</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p id="randomGiggle"></p>
+        <div class="row">
+          <!-- Left part -->
+          <div class="col-md-6">
+            <div class="details-left">
+              <!-- Add your giggle image here -->
+              <img src="/images/giggle.png" class="img-fluid inner-images" alt="">
+            </div>
+          </div>
+          <!-- Right part -->
+          <div class="col-md-6">
+            <div class="details-right">
+              <h1 id="giggleTitle">Why did the scarecrow win an award?</h1>
+              <p id="giggleDescription">Scarecrows are typically used in fields to scare away birds, but they are usually seen as inanimate objects. This joke introduces a whimsical scenario where a scarecrow receives recognition, implying that it excelled in its role. The punchline, Because he was outstanding in his field, plays on the double meaning of outstanding, suggesting both excellence and physical placement in a field. The humor lies in the unexpected twist of attributing human-like qualities such as excellence to a scarecrow, creating a playful and imaginative scenario.
+              <!-- Add more content or buttons here if needed -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+      <!-- giggle modal ends -->
+
+      <!-- giggle sec ends -->
 
     <!-- footer section start -->
     <div class="footer-section">
@@ -342,6 +384,8 @@
         </div>
       </div>
       <!-- footer section end -->
+
+      
 
       
 

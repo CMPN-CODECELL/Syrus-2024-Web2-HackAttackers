@@ -11,11 +11,11 @@ body {
   
   .navbar-style {
     background-color: #f0eded;
-    font-size: 1.9em;
+    font-size: 1.3em;
     font-weight: 500;
     color: black;
     position: sticky;
-    height: 150px;
+    height: 80px;
   }
   .navbar-style a > img {
     width: 100%;
@@ -137,7 +137,97 @@ body {
     width: 20%;
     margin-top: 4%;
 
+}  
+/* testimonial ends */
+
+/* giggle sec starts */
+.d-flex{
+  display: flex;
 }
 
-    
-/* testimonial ends */
+.left img{
+    width: 80%; 
+    height: 80%; 
+    position: relative;
+    top: 10%;
+    right: 10%;
+}
+
+.giggle-color{
+  background-color: rgb(210, 223, 223);
+}
+
+.right {
+  padding: 30px;
+  width: 500px;
+  
+}
+
+.left {
+  padding: 100px;
+}
+
+
+
+
+
+
+
+.right h1{
+    font-size: 30px;
+}
+
+.right{
+   padding: 90px;
+   width: 100%;
+   margin: 20px;
+}
+
+
+.right > p{
+    margin: 1.5rem 0px;
+    font-size: 22px;
+}
+
+/* .left, .right{
+   flex: 1;
+} */
+
+img{
+    width: 100%;
+} 
+
+.left>img {
+    /* width: 80%; 
+    height: 80%;  */
+    position: relative;
+    top: 10%;
+    right: 10%;
+    max-width: 100%; 
+  height: auto;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+/* .container{
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 30px;
+} */
+
+
+
+
+
+
+
+
+/* giggle sec ends */
