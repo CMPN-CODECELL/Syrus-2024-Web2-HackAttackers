@@ -146,7 +146,7 @@ body {
 }
 
 .giggle-color{
-  background-color: rgb(210, 223, 223);
+  background-color: rgb(255, 202, 211);
 }
 
 .right h1{
@@ -187,8 +187,8 @@ img{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: blue;
-    color: white;
+    background-color: rgb(255, 159, 175);
+    color: black;
     font-size: 20px;
 }
 
