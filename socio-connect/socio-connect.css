@@ -13,11 +13,11 @@
 
 .navbar-style {
     background-color: #f0eded;
-    font-size: 1.9em;
+    font-size: 1.3em;
     font-weight: 500;
     color: black;
     position: sticky;
-    height: 150px;
+    height: 80px;
   }
   .navbar-style a > img {
     width: 100%;
